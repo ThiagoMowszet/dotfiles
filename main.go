@@ -302,4 +302,22 @@ func other_function(x int, y string) (result int, txt1 string) {
 }
 
 
+// git config: 
+[user]
+	name = Thiago
+	email = thiagomowszet@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	ps = push
+    cl = clone
+    pl = pull
+    sw = switch
+[credential]
+	helper = store
+[http]
+	cookiefile = /home/thiago/.gitcookies
+
 
