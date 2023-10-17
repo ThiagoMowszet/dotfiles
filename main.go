@@ -320,4 +320,13 @@ func other_function(x int, y string) (result int, txt1 string) {
 [http]
 	cookiefile = /home/thiago/.gitcookies
 
+-- ?
+sudo gedit /etc/default/grub
+Edit grub. Add pci=noaer at the end of GRUB_CMDLINE_LINUX_DEFAULT. Line will be like this:
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=noaer"
+
+sudo update-grub
+
+Reboot now
 
